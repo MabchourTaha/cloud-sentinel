@@ -1,0 +1,22 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env / secrets
+.env
+
+# OS
+.DS_Store
+Thumbs.db
