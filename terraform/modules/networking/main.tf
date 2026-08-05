@@ -85,7 +85,7 @@ resource "aws_route_table_association" "public" {
 #
 # Private route table -> intentionally no route to 0.0.0.0/0.
 # No NAT Gateway in this MVP, so the private subnet has no outbound
-# internet access. Kept here so it's ready for a NAT route in phase 2.
+# internet access.
 #
 
 resource "aws_route_table" "private" {

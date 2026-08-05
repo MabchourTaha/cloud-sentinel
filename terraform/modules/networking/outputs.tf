@@ -4,11 +4,11 @@ output "vpc_id" {
 }
 
 output "public_subnet_id" {
-  description = "Public subnet ID, used by the compute module"
+  description = "Public subnet ID"
   value       = aws_subnet.public.id
 }
 
 output "private_subnet_id" {
-  description = "Private subnet ID (unused for now, reserved for phase 2)"
+  description = "Private subnet ID"
   value       = aws_subnet.private.id
 }

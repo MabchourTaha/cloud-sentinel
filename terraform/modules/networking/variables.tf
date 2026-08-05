@@ -22,7 +22,7 @@ variable "private_subnet_cidr" {
 }
 
 variable "availability_zone" {
-  description = "AZ for both subnets (single-AZ setup for this MVP)"
+  description = "AZ for both subnets"
   type        = string
   default     = "eu-west-1a"
 }
